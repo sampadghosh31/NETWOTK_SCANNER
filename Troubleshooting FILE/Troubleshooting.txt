@@ -1,0 +1,9 @@
+Troubleshooting
+
+1) ModuleNotFoundError: No module named 'nmap' — install the Python package with python3 -m pip install python-nmap using the same python you run the script with.
+
+2) nmap: command not found — install the Nmap binary (see Installation above).
+
+3) Permission errors for -sS/-O/-sI — run with sudo on Linux or run as Administrator on Windows.
+
+4) If a local file named nmap.py exists, rename it because it will shadow the library import.

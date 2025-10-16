@@ -1,0 +1,10 @@
+Example git commands to create & push the repo
+# from your project folder (where robust_nmap_scanner.py and NS.png live)
+git init
+git add robust_nmap_scanner.py README.md LICENSE .gitignore CONTRIBUTING.md NS.png
+git commit -m "Initial commit: add robust nmap scanner and docs"
+# create an empty repository on GitHub (or use the web UI), then:
+git remote add origin git@github.com:sampadghosh31/robust_nmap_scanner.git
+git branch -M main
+git push -u origin main
+

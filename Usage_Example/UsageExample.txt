@@ -1,0 +1,19 @@
+Basic version/service detection and show summary:
+
+python3 robust_nmap_scanner.py --target 45.33.32.156 --scan-type version --show
+
+SYN scan (may require root privileges):
+
+sudo python3 robust_nmap_scanner.py --target 192.168.1.10 --scan-type syn --ports 1-1024 --show
+
+Idle (zombie) scan (provide a zombie IP):
+
+sudo python3 robust_nmap_scanner.py --target 203.0.113.5 --scan-type idle --zombie 198.51.100.23 --show
+
+Scan a subnet and save JSON results:
+
+python3 robust_nmap_scanner.py --target 192.168.1.0/24 --scan-type version --ports 22,80,443 --save subnet_results.json
+
+Skip interactive confirmation (use only if authorized):
+
+python3 robust_nmap_scanner.py --target 192.168.1.10 --scan-type version --force --show

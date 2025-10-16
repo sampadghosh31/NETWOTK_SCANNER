@@ -1,0 +1,15 @@
+## robust_nmap_scanner — repository files
+
+This text document contains ready-to-use files for your GitHub repository for the robust_nmap_scanner Python project.
+
+You will find below the complete contents for:
+
+README.md (project overview, installation, usage, examples, troubleshooting)
+
+LICENSE (MIT)
+
+.gitignore
+
+CONTRIBUTING.md (short)
+
+Also instructions where to put your image (NS.png) and example git commands to create the repository locally and push to GitHub.
